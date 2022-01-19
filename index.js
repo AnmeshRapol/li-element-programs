@@ -1,7 +1,8 @@
-import { LitElement, html } from '@polymer/lit-element';
+import { LitElement, html } from 'lit-element';
+
 class MyElement extends LitElement {
-  _render() {
-    return html `<h1>polymer is great...<h1>`;
+  render() {
+    return html`<h1>polymer is great...<h1>`;
   }
 }
 customElements.define('my-element', MyElement);
